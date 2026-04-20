@@ -1,0 +1,5 @@
+{
+  "roc_auc": 0.9793,
+  "default_threshold": 0.5,
+  "tuned_threshold": 0.35
+}

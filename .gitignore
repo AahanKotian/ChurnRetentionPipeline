@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+venv/
+.venv/
+
+# Model artifacts (large binaries — don't commit)
+artifacts/*.pkl
+artifacts/*.npy
+
+# But DO commit feature importances
+!artifacts/feature_importances.json
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
